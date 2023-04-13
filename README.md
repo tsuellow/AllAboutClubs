@@ -28,7 +28,7 @@
 - Presentation (for UI logic, with MVVM)
 
 ## Tests
-- Unit tests (only dummy tests because most business logic sits in the Dao and would have required Implementation Tests)
+- Unit tests (only 2 basic tests as examples)
     
 ## Features
 - UI made entirely using Jetpack Compose following Googles New [Material Design 3](https://m3.material.io/components/cards/overview)
