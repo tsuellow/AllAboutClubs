@@ -5,8 +5,8 @@
 ## App Funcionality
 
 ### General App Info: 
-- I departed from the original wireframes and followed Googles brand new MaterialDesign3 guidelines throughout the app. This way the app is future-prof 
-- Color Scheme was created using the provided PrimaryColor:#01C13B with the [Material3 online Tool](https://m3.material.io/theme-builder#/custom)
+- I departed from the original wireframes and followed Googles brand new [Material Design 3](https://m3.material.io/components/cards/overview) guidelines throughout the app. This way the app is future-prof 
+- Color Scheme was created by feeding the provided PrimaryColor: *#01C13B* to the [Material3 online Tool](https://m3.material.io/theme-builder#/custom)
 - SplashScreen is provided
 
 ### Home Screen
