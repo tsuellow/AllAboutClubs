@@ -3,7 +3,6 @@ package com.example.android.allaboutclubs.di
 import android.app.Application
 import androidx.room.Room
 import com.example.android.allaboutclubs.common.Constants
-import com.example.android.allaboutclubs.common.PreferenceManager
 import com.example.android.allaboutclubs.data.local.ClubsDb
 import com.example.android.allaboutclubs.data.remote.ClubsApi
 import com.example.android.allaboutclubs.data.remote.repository.ClubsRepositoryImpl

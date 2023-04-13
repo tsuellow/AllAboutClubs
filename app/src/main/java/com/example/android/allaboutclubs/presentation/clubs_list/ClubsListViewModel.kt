@@ -13,9 +13,6 @@ import com.example.android.allaboutclubs.domain.model.Club
 import com.example.android.allaboutclubs.domain.use_case.Sorting
 import com.example.android.allaboutclubs.domain.use_case.UseCases
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.launchIn
-import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import java.util.*
 import javax.inject.Inject
