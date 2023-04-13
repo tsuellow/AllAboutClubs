@@ -36,7 +36,7 @@
 - Reactive programming with [Kotlin Flows](https://kotlinlang.org/docs/reference/coroutines/flow.html)
 - Coil for Images (Glide performs better but Coil allows for more concise code in Kotlin/Compose)
 - Retrifit2 + Moshi for network requests
-- Android architecture components to share ViewModels during configuration changes, Room database for local caching, Datastore for persisting network call dates
+- Android architecture components to share **ViewModels** during configuration changes, **Room** database for local caching, **Datastore** for persisting network call dates
 - Coroutines
 - Localization is provided in both German and English. Special methods were included to also Localize the Countries in the network response (which are always in German)
 - Localization of Formated Strings is also fully provided despite Jetpack Composes shortcommings in this regard
