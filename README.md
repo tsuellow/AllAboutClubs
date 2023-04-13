@@ -4,6 +4,11 @@
  
 ## App Funcionality
 
+### General App Info: 
+- I departed from the original wireframes and followed Googles brand new MaterialDesign3 guidelines throughout the app. This way the app is future-prof 
+- Color Scheme was created using the provided PrimaryColor:#01C13B with the [Material3 online Tool](https://m3.material.io/theme-builder#/custom)
+- SplashScreen is provided
+
 ### Home Screen
 - The home screen displays a list of futball clubs with along with their insignia, country and valuation
 - On startup data is loaded from a remote API and synched to the apps local Room Database from which they are then shown to the user 
