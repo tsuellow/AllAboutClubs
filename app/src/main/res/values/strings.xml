@@ -1,3 +1,81 @@
 <resources>
     <string name="app_name">AllAboutClubs</string>
+
+    <string name="all_about_clubs">All About Clubs</string>
+    <string name="sort_by_value">sort by value</string>
+    <string name="sort_alpha">sort alphabetically</string>
+    <string name="loading">loading...</string>
+    <string name="updating">updating...</string>
+    <string name="not_up_to_date">data might not be up to date</string>
+    <string name="attention">attention</string>
+    <string name="club_insignia">club insignia</string>
+    <string name="value_million"> %1$d million</string>
+    <string name="first_line_detail">The club <b>%1$s</b> from %2$s has a market value of %3$d million euros.</string>
+    <string name="second_line_detail"><b>%1$s</b> has so far won %2$d European titles.</string>
+    <string name="back">back</string>
+    <string name="error">something went wrong!</string>
+    <string name="less">less</string>
+    <string name="more">more</string>
+    <string name="showing_data">showing data from: </string>
+    <string name="details">Details:</string>
+    <string name="http_exep">Unable to get data from server</string>
+    <string name="io_exep">IO error, unable to read data, check network</string>
+    <string name="unknown_exep">Unknown error</string>
+
+
+    <string name="unknown">Unknown</string>
+    <string name="albania">Albania</string>
+    <string name="andorra">Andorra</string>
+    <string name="austria">Austria</string>
+    <string name="belarus">Belarus</string>
+    <string name="belgium">Belgium</string>
+    <string name="bosnia_and_herzegovina">Bosnia and Herzegovina</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="croatia">Croatia</string>
+    <string name="cyprus">Cyprus</string>
+    <string name="czech_republic">Czech Republic</string>
+    <string name="denmark">Denmark</string>
+    <string name="england">England</string>
+    <string name="estonia">Estonia</string>
+    <string name="finland">Finland</string>
+    <string name="france">France</string>
+    <string name="germany">Germany</string>
+    <string name="greece">Greece</string>
+    <string name="hungary">Hungary</string>
+    <string name="iceland">Iceland</string>
+    <string name="ireland">Ireland</string>
+    <string name="italy">Italy</string>
+    <string name="kosovo">Kosovo</string>
+    <string name="latvia">Latvia</string>
+    <string name="liechtenstein">Liechtenstein</string>
+    <string name="lithuania">Lithuania</string>
+    <string name="luxembourg">Luxembourg</string>
+    <string name="malta">Malta</string>
+    <string name="moldova">Moldova</string>
+    <string name="monaco">Monaco</string>
+    <string name="montenegro">Montenegro</string>
+    <string name="netherlands">Netherlands</string>
+    <string name="north_macedonia">North Macedonia</string>
+    <string name="northern_ireland">Northern Ireland</string>
+    <string name="norway">Norway</string>
+    <string name="poland">Poland</string>
+    <string name="portugal">Portugal</string>
+    <string name="romania">Romania</string>
+    <string name="russia">Russia</string>
+    <string name="san_marino">San Marino</string>
+    <string name="scotland">Scotland</string>
+    <string name="serbia">Serbia</string>
+    <string name="slovakia">Slovakia</string>
+    <string name="slovenia">Slovenia</string>
+    <string name="spain">Spain</string>
+    <string name="sweden">Sweden</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="turkey">Turkey</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="vatican_city">Vatican City</string>
+    <string name="wales">Wales</string>
+
+
+
 </resources>

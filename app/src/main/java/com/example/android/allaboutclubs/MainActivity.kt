@@ -10,9 +10,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.android.allaboutclubs.presentation.club_detail.components.ClubDetail
 import com.example.android.allaboutclubs.presentation.clubs_list.components.ClubsList
 import com.example.android.allaboutclubs.presentation.common_components.Screen
 import com.example.android.allaboutclubs.presentation.ui.theme.AllAboutClubsTheme
@@ -21,6 +23,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
         setContent {
             AllAboutClubsTheme {
@@ -36,6 +39,9 @@ class MainActivity : ComponentActivity() {
                     ){
                         composable(route = Screen.ClubsListScreen.route){
                             ClubsList(navController=navController)
+                        }
+                        composable(route = Screen.ClubDetailScreen.route+"/{clubId}"){
+                            ClubDetail(navController = navController)
                         }
                     }
                 }
