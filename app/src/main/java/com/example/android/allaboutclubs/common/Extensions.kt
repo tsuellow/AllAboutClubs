@@ -4,7 +4,9 @@ import com.example.android.allaboutclubs.R
 import java.text.SimpleDateFormat
 import java.util.*
 
-
+/**
+ * Turns a date into a datestring. Time was ignored since the remote datasource is only updated once daily
+ */
 fun Date.toDateString():String{
     return SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).format(this)
 }

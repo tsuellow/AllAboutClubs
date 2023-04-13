@@ -31,16 +31,7 @@ import androidx.compose.ui.unit.em
 import androidx.core.text.HtmlCompat
 
 
-/**
- * This code enables the use of spannable strings with html tags from the strings.xml file in Compose Text()
- * Taken from the official Google Issue Tracker https://issuetracker.google.com/issues/139320238#comment11
- * or also https://stackoverflow.com/a/70162451/10637400
- * to be replaced once this issue is supported by official compose functionality
- *
- * A second option would have been to simply revert to TextView from the old android view system as in
- * this post https://stackoverflow.com/a/68549851/10637400 But a lot of functionality of Compose Text()
- * would have been lost
- */
+
 @Composable
 @ReadOnlyComposable
 private fun resources(): Resources {
@@ -63,6 +54,16 @@ fun Resources.getText(@StringRes id: Int, vararg args: Any): CharSequence {
     return HtmlCompat.fromHtml(formattedHtml, HtmlCompat.FROM_HTML_MODE_LEGACY)
 }
 
+/**
+ * This code enables the use of spannable strings with varargs and with html tags from the strings.xml file in Compose Text()
+ * Taken from the official Google Issue Tracker https://issuetracker.google.com/issues/139320238#comment11
+ * or also https://stackoverflow.com/a/70162451/10637400
+ * to be replaced once this issue is supported by official compose functionality
+ *
+ * A second option would have been to simply revert to TextView from the old android view system as in
+ * this post https://stackoverflow.com/a/68549851/10637400 But a lot of functionality of Compose Text()
+ * would have been lost
+ */
 @Composable
 fun annotatedStringResource(@StringRes id: Int, vararg formatArgs: Any): AnnotatedString {
     val resources = resources()
@@ -73,6 +74,16 @@ fun annotatedStringResource(@StringRes id: Int, vararg formatArgs: Any): Annotat
     }
 }
 
+/**
+ * This code enables the use of spannable strings with html tags from the strings.xml file in Compose Text()
+ * Taken from the official Google Issue Tracker https://issuetracker.google.com/issues/139320238#comment11
+ * or also https://stackoverflow.com/a/70162451/10637400
+ * to be replaced once this issue is supported by official compose functionality
+ *
+ * A second option would have been to simply revert to TextView from the old android view system as in
+ * this post https://stackoverflow.com/a/68549851/10637400 But a lot of functionality of Compose Text()
+ * would have been lost
+ */
 @Composable
 fun annotatedStringResource(@StringRes id: Int): AnnotatedString {
     val resources = resources()
