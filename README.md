@@ -5,16 +5,17 @@
 ## App Funcionality
 
 ### Home Screen
-- The home screen displays a list of post titles loaded from local storage(internal sqlite room database)
-- Posts are ordered with favourites appearing first
-- If  no posts are found it automatically syncs them from https://jsonplaceholder.typicode.com/ on startup
-- A refresh button allows to refresh posts from the API. Posts marked as favourite preserve their favourite status
-- A delete all button allows to drop all posts not marked as favourite
-- Caching in the room database allows favourites and deletions to survive process death.
-- Deletions are only performed locally as https://jsonplaceholder.typicode.com/ is a mock API that wouldnt allow for real remote deletions
+- The home screen displays a list of futball clubs with along with their insignia, country and valuation
+- On startup data is loaded from a remote API and synched to the apps local Room Database from which they are then shown to the user 
+- If data could not be retrieved, the list shows old data from Room 
+- A Card informs the user if data might be outdated and also about loading processes and exceptions
+- A toggleable action on the right of the TopBar allows to sort the list either by Club valuation or alphabetically; the list scrolls to the top when this happens
+- Clicking of Club items leads to Detail Screen
+
 ### Detail Screen
-- Displays details of individual post along with author data and comments that are loaded from the API on demand
-- Buttons allow to mark the post as favourite or delete it from the list
+- Displays details of individual Clubs
+- Spannable formated text fields inform the user of Club details
+- The topbar includes BackNavigation
 
 ## Clean architecture with 3 layers
 - Data (for database and API code)
@@ -24,15 +25,16 @@
 ## Tests
 - Unit tests (only dummy tests because most business logic sits in the Dao and would have required Implementation Tests)
     
-## Other useful features
-- UI made entirely using Jetpack Compose
+## Features
+- UI made entirely using Jetpack Compose following Googles New [Material Design 3](https://m3.material.io/components/cards/overview)
 - Dependency injection (with [Hilt](http://google.github.io/hilt/))
 - Reactive programming with [Kotlin Flows](https://kotlinlang.org/docs/reference/coroutines/flow.html)
-- Google [Material Design](https://material.io/blog/android-material-theme-color) library
-- Room database for local caching
-- Retrifit2 for network requests
-- Android architecture components to share ViewModels during configuration changes
+- Coil for Images (Glide performs better but Coil allows for more concise code in Kotlin/Compose)
+- Retrifit2 + Moshi for network requests
+- Android architecture components to share ViewModels during configuration changes, Room database for local caching, Datastore for persisting network call dates
 - Coroutines
+- Localization is provided in both German and English. Special methods were included to also Localize the Countries in the network response (which are always in German)
+- Localization of Formated Strings is also fully provided despite Jetpack Composes shortcommings in this regard
 
 
 # Getting started
