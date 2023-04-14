@@ -32,11 +32,11 @@ android {
     productFlavors {
         originalVersion {
             applicationId "com.example.android.allaboutclubs.originalversion"
-
+            dimension "flavours"
         }
         cloneVersion {
             applicationId "com.example.android.allaboutclubs.cloneversion"
-
+            dimension "flavours"
         }
     }
     compileOptions {

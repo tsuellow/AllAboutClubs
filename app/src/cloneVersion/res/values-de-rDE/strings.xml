@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KloneApp</string>
-
+    <string name="all_about_clubs">Klone App</string>
 
 </resources>
