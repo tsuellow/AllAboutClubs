@@ -1,11 +1,9 @@
 # AllAboutClubs <img src="images/ic_launcher.png" alt="Home" width="40"/>
 
-| ![demo](images/demo_allaboutclubs.gif) | 
-|:--:| 
-| *demo* | | ![demo](images/demo_allaboutclubs.gif) | 
-|:--:| 
-| *demo* |
- <p><img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/> <img src="images/clublist.jpeg" alt="Home" height="400"/> <img src="images/detail.jpeg" alt="Home" height="400"/> <img src="images/clone.jpeg" alt="Home" height="400"/>
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+<img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/>  |  <img src="images/clublist.jpeg" alt="Home" height="400"/>
+ <img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/> <img src="images/clublist.jpeg" alt="Home" height="400"/> <img src="images/detail.jpeg" alt="Home" height="400"/> <img src="images/clone.jpeg" alt="Home" height="400"/>
  
 ## App Funcionality
 
