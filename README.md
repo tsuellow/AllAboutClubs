@@ -3,6 +3,8 @@
 Solarized dark             |  Solarized Ocean          |Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/>|<img src="images/clublist.jpeg" alt="Home" height="400"/> | <img src="images/detail.jpeg" alt="Home" height="400"/> | <img src="images/clone.jpeg" alt="Home" height="400"/>
+ 
+ 
  <img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/> <img src="images/clublist.jpeg" alt="Home" height="400"/> <img src="images/detail.jpeg" alt="Home" height="400"/> <img src="images/clone.jpeg" alt="Home" height="400"/>
  
 ## App Funcionality
