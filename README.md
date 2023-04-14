@@ -1,6 +1,6 @@
 # AllAboutClubs <img src="images/ic_launcher.png" alt="Home" width="40"/>
 
-Demo GIF            |  Club List          |Detail Screen             |  Clone app
+Demo GIF            |  Club List          |Detail Screen             |  Clone App
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/>|<img src="images/clublist.jpeg" alt="Home" height="400"/> | <img src="images/detail.jpeg" alt="Home" height="400"/> | <img src="images/clone.jpeg" alt="Home" height="400"/>
  
