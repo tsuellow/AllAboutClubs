@@ -1,12 +1,15 @@
 # AllAboutClubs <img src="images/ic_launcher.png" alt="Home" width="40"/>
 
- <img src="images/demo_allaboutclubs.gif" alt="Home" width="200"/>                                 <img src="images/clublist.jpeg" alt="Home" width="200"/>           <img src="images/detail.jpeg" alt="Home" width="200"/>
+Demo GIF            |  Club List          |Detail Screen             |  Clone App
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/>|<img src="images/clublist.jpeg" alt="Home" height="400"/> | <img src="images/detail.jpeg" alt="Home" height="400"/> | <img src="images/clone.jpeg" alt="Home" height="400"/>
  
 ## App Funcionality
 
 ### General App Info: 
 - I departed from the original wireframes and followed Googles brand new [Material Design 3](https://m3.material.io/components/cards/overview) guidelines throughout the app. This way the app is future-prof 
 - Color Scheme was created by feeding the provided PrimaryColor: *#01C13B* to the [Material3 online Tool](https://m3.material.io/theme-builder#/custom)
+- As per requirements the App features 2 flavours to allow for relaunching of the app in different markets: *original* and *clone*. In the Clone app I used a purple colorSchema otherwise its the same app. Other divergences in functionallity could be added later on
 - SplashScreen is provided
 
 ### Home Screen
