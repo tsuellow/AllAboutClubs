@@ -1,9 +1,6 @@
 # AllAboutClubs <img src="images/ic_launcher.png" alt="Home" width="40"/>
 
- <img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/>                                 
- <img src="images/clublist.jpeg" alt="Home" height="400"/>           
- <img src="images/detail.jpeg" alt="Home" height="400"/> 
- <img src="images/clone.jpeg" alt="Home" height="400"/>
+ <p><img src="images/demo_allaboutclubs.gif" alt="Home" height="400"/><em>demo</em></p>  <img src="images/clublist.jpeg" alt="Home" height="400"/> <img src="images/detail.jpeg" alt="Home" height="400"/> <img src="images/clone.jpeg" alt="Home" height="400"/>
  
 ## App Funcionality
 
