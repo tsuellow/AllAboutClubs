@@ -5,7 +5,7 @@ import androidx.room.Room
 import com.example.android.allaboutclubs.common.Constants
 import com.example.android.allaboutclubs.data.local.ClubsDb
 import com.example.android.allaboutclubs.data.remote.ClubsApi
-import com.example.android.allaboutclubs.data.remote.repository.ClubsRepositoryImpl
+import com.example.android.allaboutclubs.data.repository.ClubsRepositoryImpl
 import com.example.android.allaboutclubs.domain.repository.ClubsRepository
 import com.example.android.allaboutclubs.domain.use_case.GetClubByIdUseCase
 import com.example.android.allaboutclubs.domain.use_case.GetClubsListUseCase

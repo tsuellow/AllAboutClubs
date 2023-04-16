@@ -1,4 +1,4 @@
-package com.example.android.allaboutclubs.common
+package com.example.android.allaboutclubs.data.local
 
 import android.content.Context
 import androidx.datastore.core.DataStore

@@ -1,4 +1,4 @@
-package com.example.android.allaboutclubs.data.remote.repository
+package com.example.android.allaboutclubs.data.repository
 
 import com.example.android.allaboutclubs.common.Constants
 import com.example.android.allaboutclubs.common.Resource

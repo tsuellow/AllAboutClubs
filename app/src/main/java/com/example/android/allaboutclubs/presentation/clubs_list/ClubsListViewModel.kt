@@ -6,7 +6,7 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.android.allaboutclubs.common.PreferenceManager
+import com.example.android.allaboutclubs.data.local.PreferenceManager
 import com.example.android.allaboutclubs.common.Resource
 import com.example.android.allaboutclubs.common.toDateString
 import com.example.android.allaboutclubs.domain.model.Club
