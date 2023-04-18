@@ -13,7 +13,7 @@ Demo GIF            |  Club List          |Detail Screen             |  Clone Ap
 - SplashScreen is provided
 
 ### Home Screen
-- The home screen displays a list of futball clubs with along with their insignia, country and valuation
+- The home screen displays a list of futball clubs along with their insignia, country and valuation
 - On startup data is loaded from a remote API and synched to the apps local Room Database from which they are then shown to the user 
 - If data could not be retrieved, the list shows old data from Room 
 - A Card informs the user if data might be outdated and also about loading processes and exceptions
